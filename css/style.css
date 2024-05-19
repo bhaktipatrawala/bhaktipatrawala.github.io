@@ -448,6 +448,7 @@ section#about {
 
 .portfolio .portfolio-container {
     display: grid;
+    flex-direction: row;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
