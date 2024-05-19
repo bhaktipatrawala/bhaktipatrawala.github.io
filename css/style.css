@@ -174,18 +174,35 @@ section {
     color: var(--white-color);
 }
 
-.home .home.png {
+.home.png {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem; /* Add some gap between the home-content and home.png */
+    width: 100%;
+    max-width: 100%;
+}
+
+.profile-image {
+    width: 100%;
+}
+
+.centered-badge {
+    width: 25%;
+    max-width: 50%;
+}
+
+/* .home .home.png {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem; Add some gap between the home-content and home.png
 }
 
 .home .home.png img {
     width: 100%;
     max-width: 100%;
     align-items: center;
-}
+} */
 
 
 
