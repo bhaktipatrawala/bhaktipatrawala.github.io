@@ -480,7 +480,7 @@ section#about {
     overflow: hidden;
 }
 
-.portfolio-container .certification-box {
+.certification-container .certification-box {
     position: relative;
     display: flex;
     border-radius: 2rem;
