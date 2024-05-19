@@ -447,13 +447,19 @@ section#about {
 }
 
 .portfolio .portfolio-container {
-    display: flex;
-    justify-content: center;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 2.5rem;
+}
+
+.portfolio .certification-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .portfolio-container .portfolio-box {
