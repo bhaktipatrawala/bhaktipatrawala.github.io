@@ -447,9 +447,12 @@ section#about {
 }
 
 .portfolio .portfolio-container {
-    display: grid;
+    display: flex;
+    justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 2.5rem;
 }
 
