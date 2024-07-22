@@ -484,12 +484,11 @@ section#about {
 } */
 
 .portfolio .certification-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: row; 
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .portfolio-container .portfolio-box {
@@ -505,7 +504,7 @@ section#about {
     display: flex;
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 .portfolio-box img {
