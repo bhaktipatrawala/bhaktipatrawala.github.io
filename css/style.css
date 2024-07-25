@@ -486,7 +486,7 @@ section#about {
 .portfolio .certification-container {
     display: grid;
     flex-direction: row;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
@@ -514,7 +514,8 @@ section#about {
 } */
 
 .certification-box img {
-    width: 100%;
+    width: 50%;
+    height: 50%;
     transition: .5s ease;
 }
 
