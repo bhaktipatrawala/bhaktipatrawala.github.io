@@ -594,7 +594,7 @@ section#about {
     color: #333;
 }
 
-.certification-box img {
+.certification-container .certification-box img {
     width: 100%; /* Ensure the image fills its container */
     /* height: 200px; Set a fixed height */
     object-fit: cover; /* Ensure the image covers the specified dimensions */
