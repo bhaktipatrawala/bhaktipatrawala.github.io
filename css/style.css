@@ -502,6 +502,7 @@ section#about {
 .certification-container .certification-box {
     position: relative;
     display: flex;
+    align-items: center;
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
     overflow: hidden; 
@@ -591,13 +592,6 @@ section#about {
 .portfolio-layer a i {
     font-size: 2rem;
     color: #333;
-}
-
-.certification-box img {
-    width: 75%; /* Ensure the image fills its container */
-    /* height: 100px; Set a fixed height */
-    object-fit: cover; /* Ensure the image covers the specified dimensions */
-    transition: .5s ease;
 }
 
 .portfolio-box img {
